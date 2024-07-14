@@ -40,13 +40,13 @@ const Hero = () => {
 
           <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Agwu Emmanuel" 
+            words="AGWU EMMANUEL" 
           />
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
           Fullstack Software Engineer
           </p>
 
-          <a href='#about'>
+          <a href='#projects'>
             <MagicButton title="Show my work"
             icon={<FaLocationArrow />}
             position='right'
