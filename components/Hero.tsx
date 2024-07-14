@@ -31,6 +31,9 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] 
         flex flex-col items-center justify-center">
+          <div className="w-40 h-40 rounded-full bg-yellow-300 mb-[40px]">
+            <img src='/emmanuel.jpeg' alt='profile-pics'/>
+          </div>
           <h2 className='uppercase tracking-widest text-xs 
           text-center text-blue-100 max-w-80'>
             Hi, I&apos;m Emmanuel, a Fullstack Software Engineer.
