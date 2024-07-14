@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
+import ProfilePicture from './ui/ProfilePicture';
 
 const Hero = () => {
   return (
@@ -31,20 +32,18 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] 
         flex flex-col items-center justify-center">
-          <div className="w-40 h-40 rounded-full bg-yellow-300 mb-[40px]">
-            <img src='/emmanuel.jpeg' alt='profile-pics'/>
-          </div>
+          <ProfilePicture />
           <h2 className='uppercase tracking-widest text-xs 
           text-center text-blue-100 max-w-80'>
-            Hi, I&apos;m Emmanuel, a Fullstack Software Engineer.
+            Hello, I&apos;m 
           </h2>         
 
           <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Ideas into Innovative Solutions" 
+            words="Agwu Emmanuel" 
           />
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-          Let&apos;s Build the Future Together
+          Fullstack Software Engineer
           </p>
 
           <a href='#about'>
